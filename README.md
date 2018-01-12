@@ -10,7 +10,7 @@ City Lights is also available for Atom & Visual Studio Code. For more informatio
 ## Install
 
 You can install the the City Lights theme for Sublime Text via Package Control or by cloning this repository into you /packages/ directory of Sublime Text.
-*Make sure the name of the package is* `*city-lights-sublime*`*. If this is set differently the souces won't get loaded correctly*
+*Make sure the name of the package is* `*Theme - City Lights*`*. If this is set differently the souces won't get loaded correctly*
 
 ## Settings
 
