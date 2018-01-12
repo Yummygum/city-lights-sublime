@@ -7,7 +7,7 @@
         <key>settings</key>
         <dict>
             <key>icon</key>
-            <string>file_type_react</string>
+            <string>file_type_jsx</string>
         </dict>
     </dict>
 </plist>

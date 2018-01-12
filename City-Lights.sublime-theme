@@ -44,11 +44,11 @@
     "hit_test_level": 0.5,
 
     // Inactive Tab
-    "layer0.texture": "city-lights-sublime/assets/tab-inactive.png",
+    "layer0.texture": "Theme - City Lights/assets/tab-inactive.png",
     "layer0.opacity": 1,
 
     // Active Tab
-    "layer1.texture": "city-lights-sublime/assets/tab-active.png",
+    "layer1.texture": "Theme - City Lights/assets/tab-active.png",
     "layer1.opacity": 0,
   },
 
@@ -63,7 +63,7 @@
   // Tab close button 
   {
     "class": "tab_close_button",
-    "layer0.texture": "city-lights-sublime/assets/icon-close-tab.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-close-tab.png",
     "layer0.opacity": 1,
     "content_margin": [7, 8]
   },
@@ -73,7 +73,7 @@
       "class": "tab_control",
       "attributes": ["hover"]
     }],
-    "layer0.texture": "city-lights-sublime/assets/icon-close-tab-hover.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-close-tab-hover.png",
     "layer0.opacity": 1
   },
   {
@@ -92,7 +92,7 @@
       "class": "tab_control",
       "attributes": ["dirty"]
     }],
-    "layer0.texture": "city-lights-sublime/assets/icon-close-tab-modified.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-close-tab-modified.png",
     "layer0.opacity": 1
   },
   {
@@ -150,7 +150,7 @@
   // FOLD BUTTONS
   {
     "class": "fold_button_control",
-    "layer0.texture": "city-lights-sublime/assets/chevron-right.png",
+    "layer0.texture": "Theme - City Lights/assets/chevron-right.png",
     "layer0.tint": [102, 109, 129],
     "layer0.opacity": 0,
     "layer0.inner_margin": -2,
@@ -164,7 +164,7 @@
   {
     "class": "fold_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "city-lights-sublime/assets/chevron-down.png"
+    "layer0.texture": "cityTheme - City Lights/assets/chevron-down.png"
   },
   {
     "class": "fold_button_control",
@@ -408,7 +408,7 @@
   // Sidebar rows
   {
     "class": "tree_row",
-    "layer0.texture": "city-lights-sublime/assets/active-file-tree-bg.png",
+    "layer0.texture": "Theme - City Lights/assets/active-file-tree-bg.png",
     "layer0.opacity": 0,
     "layer0.inner_margin": 0
   },
@@ -495,7 +495,7 @@
   { // aanpassen
     "class": "disclosure_button_control",
     "content_margin": [10, 8],
-    "layer0.texture": "city-lights-sublime/assets/icon-folder.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-folder.png",
     "layer0.opacity": 1,
     "layer0.inner_margin": 0
   },
@@ -504,13 +504,13 @@
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "city-lights-sublime/assets/icon-folder-open.png"
+    "layer0.texture": "Theme - City Lights/assets/icon-folder-open.png"
   },
 
   // Sidebar folder closed
   {
     "class": "icon_folder",
-    "layer0.texture": "city-lights-sublime/assets/icon-folder.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-folder.png",
     "layer0.opacity": 1.0,
     "content_margin": [0, 0]
   },
@@ -522,7 +522,7 @@
       "class": "tree_row",
       "attributes": ["expanded"]
     }],
-    "layer0.texture": "city-lights-sublime/assets/icon-folder-open.png"
+    "layer0.texture": "Theme - City Lights/assets/icon-folder-open.png"
   },
   {
     "class": "icon_folder",
@@ -537,13 +537,13 @@
       "class": "tree_row",
       "attributes": ["expanded", "selected"]
     }],
-    "layer0.texture": "city-lights-sublime/icons/file_type_folder-open.png"
+    "layer0.texture": "Theme - City Lights/icons/file_type_folder-open.png"
   },
 
   // Sidebar symlink folder icon
   {
     "class": "icon_folder_dup",
-    "layer0.texture": "city-lights-sublime/icons/file_type_folder-open.png",
+    "layer0.texture": "Theme - City Lights/icons/file_type_folder-open.png",
     "layer0.opacity": 1,
     "content_margin": [0, 0]
   },
@@ -739,9 +739,9 @@
   // Regex search button
   {
     "class": "icon_regex",
-    "layer0.texture": "city-lights-sublime/assets/icon-regex.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-regex.png",
     "layer0.opacity": 1,
-    "layer1.texture": "city-lights-sublime/assets/icon-regex-active.png",
+    "layer1.texture": "Theme - City Lights/assets/icon-regex-active.png",
     "layer1.opacity": 0,
     "content_margin": [8, 6]
 
@@ -758,9 +758,9 @@
   // Case sensitive search button
   {
     "class": "icon_case",
-    "layer0.texture": "city-lights-sublime/assets/icon-case-sensitive.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-case-sensitive.png",
     "layer0.opacity": 1,
-    "layer1.texture": "city-lights-sublime/assets/icon-case-sensitive-active.png",
+    "layer1.texture": "Theme - City Lights/assets/icon-case-sensitive-active.png",
     "layer1.opacity": 0,
     "content_margin": [8, 6],
   },
@@ -776,9 +776,9 @@
   // Match whole word search button
   {
     "class": "icon_whole_word",
-    "layer0.texture": "city-lights-sublime/assets/icon-hole-word.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-hole-word.png",
     "layer0.opacity": 1,
-    "layer1.texture": "city-lights-sublime/assets/icon-hole-word-active.png",
+    "layer1.texture": "Theme - City Lights/assets/icon-hole-word-active.png",
     "layer1.opacity": 0,
     "content_margin": [8, 6],
 
@@ -795,9 +795,9 @@
   // Show search context button
   {
     "class": "icon_context",
-    "layer0.texture": "city-lights-sublime/assets/icon-context.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-context.png",
     "layer0.opacity": 1,
-    "layer1.texture": "city-lights-sublime/assets/icon-context-active.png",
+    "layer1.texture": "Theme - City Lights/assets/icon-context-active.png",
     "layer1.opacity": 0,
     "content_margin": [8, 6]
   },
@@ -813,9 +813,9 @@
   // Use search buffer
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "city-lights-sublime/assets/icon-user-buffer.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-user-buffer.png",
     "layer0.opacity": 1,
-    "layer1.texture": "city-lights-sublime/assets/icon-user-buffer-active.png",
+    "layer1.texture": "Theme - City Lights/assets/icon-user-buffer-active.png",
     "layer1.opacity": 0,
     "content_margin": [8, 6]
   },
@@ -832,7 +832,7 @@
   // Reverse search direction button (ST2 only)
   {
     "class": "icon_reverse",
-    "layer0.texture": "city-lights-sublime/assets/reverse.png",
+    "layer0.texture": "Theme - City Lights/assets/reverse.png",
     "layer0.tint": [255, 0, 0],
     "layer0.opacity": 1,
     "content_margin": [8, 6]
@@ -849,9 +849,9 @@
   // Search wrap button
   {
     "class": "icon_wrap",
-    "layer0.texture": "city-lights-sublime/assets/icon-wrap.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-wrap.png",
     "layer0.opacity": 1,
-    "layer1.texture": "city-lights-sublime/assets/icon-wrap-active.png",
+    "layer1.texture": "Theme - City Lights/assets/icon-wrap-active.png",
     "layer1.opacity": 0,
     "content_margin": [8, 6]
   },
@@ -867,9 +867,9 @@
   // Search in selection button
   {
     "class": "icon_in_selection",
-    "layer0.texture": "city-lights-sublime/assets/icon-selection.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-selection.png",
     "layer0.opacity": 1,
-    "layer1.texture": "city-lights-sublime/assets/icon-selection-active.png",
+    "layer1.texture": "Theme - City Lights/assets/icon-selection-active.png",
     "layer1.opacity": 0,
     "content_margin": [8, 6]
   },
@@ -900,9 +900,9 @@
   // Highlight results button
   {
     "class": "icon_highlight",
-    "layer0.texture": "city-lights-sublime/assets/icon-only-in-selection.png",
+    "layer0.texture": "Theme - City Lights/assets/icon-only-in-selection.png",
     "layer0.opacity": 1,
-    "layer1.texture": "city-lights-sublime/assets/icon-only-in-selection-active.png",
+    "layer1.texture": "Theme - City Lights/assets/icon-only-in-selection-active.png",
     "layer1.opacity": 0,
     "content_margin": [8,6]
   },
