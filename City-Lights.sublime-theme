@@ -164,7 +164,7 @@
   {
     "class": "fold_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "cityTheme - City Lights/assets/chevron-down.png"
+    "layer0.texture": "Theme - City Lights/assets/chevron-down.png"
   },
   {
     "class": "fold_button_control",
