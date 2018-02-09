@@ -433,6 +433,17 @@ variable.language.php, variable.other.global.php</string>
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>source.scss meta.set.variable</string>
+			<key>scope</key>
+			<string>source.scss meta.set.variable variable, source.sass meta.set.variable variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ebbf83</string>
+			</dict>
+		</dict>	
+		<dict>
+			<key>name</key>
 			<string>strings PHP</string>
 			<key>scope</key>
 			<string></string>
