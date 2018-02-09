@@ -384,8 +384,8 @@
   {
     "class": "sidebar_tree",
     "row_padding": [8, 6],
-    "indent": 16,
-    "indent_offset": 26,
+    "indent": 20,
+    "indent_offset": 0,
     "indent_top_level": false,
     "dark_content": true
   },
@@ -494,7 +494,7 @@
   // Sidebar group closed
   { // aanpassen
     "class": "disclosure_button_control",
-    "content_margin": [10, 8],
+    "content_margin": [0, 0],
     "layer0.texture": "Theme - City Lights/assets/icon-folder.png",
     "layer0.opacity": 1,
     "layer0.inner_margin": 0
@@ -512,7 +512,7 @@
     "class": "icon_folder",
     "layer0.texture": "Theme - City Lights/assets/icon-folder.png",
     "layer0.opacity": 1.0,
-    "content_margin": [0, 0]
+    "content_margin": [10, 8]
   },
 
   // Sidebar folder open
