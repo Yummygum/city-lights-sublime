@@ -153,8 +153,8 @@
     "layer0.texture": "Theme - City Lights/assets/chevron-right.png",
     "layer0.tint": [102, 109, 129],
     "layer0.opacity": 0,
-    "layer0.inner_margin": -2,
-    "content_margin": [6, 6],
+    "layer0.inner_margin": -8,
+    "content_margin": [8, 6],
   },
   {
     "class": "fold_button_control",
@@ -616,10 +616,10 @@
   {
     "class": "overlay_control",
     "layer0.opacity": 1,
-    "layer1.tint": [38, 47, 55],
-    "layer1.inner_margin": [0, 0, 0, 0],
+    "layer1.tint": [51, 63, 74],
+    "layer1.inner_margin": 1,
     "layer1.opacity": 1,
-    "content_margin": 0
+    "content_margin": 1
   },
   {
     "class": "quick_panel",
@@ -631,14 +631,14 @@
   {
     "class": "quick_panel_row",
     "layer0.tint": [24, 30, 36],
-    "layer0.inner_margin": 16,
+    "layer0.inner_margin": 0,
     "layer0.opacity": 1
   },
   {
     "class": "quick_panel_label",
     "fg": [102, 109, 129],
-    "match_fg": [160, 179, 198],
-    "selected_fg": [160, 179, 198],
+    "match_fg": [237, 242, 247],
+    "selected_fg": [102, 109, 129],
     "selected_match_fg": [237, 242, 247]
   },
   {
@@ -655,6 +655,11 @@
   },
   {
     "class": "mini_quick_panel_row",
+    "attributes": ["selected"],
+    "layer0.tint": [42, 48, 56] // -01
+  },
+  {
+    "class": "quick_panel_row",
     "attributes": ["selected"],
     "layer0.tint": [42, 48, 56] // -01
   },
