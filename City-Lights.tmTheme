@@ -570,6 +570,144 @@ source.yaml string.unquoted.plain.out.yaml</string>
 				<string>#B7C5D3</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D95468</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8BD49C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EBBF83</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter untracked</string>
+			<key>scope</key>
+			<string>markup.untracked.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#68A1F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter ignored</string>
+			<key>scope</key>
+			<string>markup.ignored.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A0B3C6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lang Variable</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#68A1F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String Constant</string>
+			<key>scope</key>
+			<string>string constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D95468</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Raw</string>
+			<key>scope</key>
+			<string>markup.raw</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#90A4AE21</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS ID</string>
+			<key>scope</key>
+			<string>meta.selector.css entity.other.attribute-name.id,
+meta.selector.scss entity.other.attribute-name.id,
+meta.selector.sass entity.other.attribute-name.id,
+meta.selector.less entity.other.attribute-name.id,
+meta.selector.stylus entity.other.attribute-name.id</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#70E1E8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support Type</string>
+			<key>scope</key>
+			<string>support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8BD49C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>scope</key>
+			<string>  </string>
+			<key>settings</key>
+			<dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Prop. Name</string>
+			<key>scope</key>
+			<string>support.type.property-name.css,
+support.type.property-name.scss,
+support.type.property-name.sass,
+support.type.property-name.less,
+support.type.property-name.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#718CA1</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
